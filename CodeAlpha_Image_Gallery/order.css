@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar li a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    position: relative; 
+    width: 100%; 
+    height: 100vh; 
+    background-image: url("D:\OneDrive\Documents\New folder\images\one piece wanted.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+}   
